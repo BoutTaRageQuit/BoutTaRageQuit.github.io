@@ -1,0 +1,108 @@
+<!--
+yig hyi huo juo
+The first part of a website is going to be the same - almost always - and it is goint to do a couple things
+    1. tell the browser to expect the document to be in HTML
+    2. Open up an HTML tag - tags are just containers for code - like quotes or parenthesis
+    3. tell the computer what type of universal characters to use (utf-8 is super common)
+
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alli Wallli</title>
+
+        <style>
+            h1 {color: fuchsia}
+        </style>
+        <style>
+            body {background-color:rgb(230, 9, 9)}
+        </style>
+    </head>
+    <body>
+        <!-- 
+            FIRST THINGS FIRST
+            the H tag is a header
+        -->    
+    <h1>Celebratory pickle page</h1> <!-- Main heading on the page-->
+
+        
+        
+    <h2>Formatting Text</h2> 
+        <!-- 
+        any text that you would like to add in a paragraph format will have a <p> tag and new lines need to have a break <br> tag
+        you can make letters bold by using the <strong> tag 
+        you can make letters italics by using the <em> tag
+        -->
+    
+    <p> google google google <br>
+        <strong> google google google </strong> <br> <!-- Bold  -->
+        <em>google google google</em><br> <!-- Italic   -->
+        <strong><em>google google google</em></strong><br> <!-- Bold and Italic -->
+    </p>
+ 
+    
+
+    <!-- 
+            inserting an image with the <img> tag.
+            the img tag needs to have a source URL = src="http://www.etc.com"
+            the img tag can have other info - like what to do if the image is not available = alt="ooops"
+            the img tag can also show how big the image can be width="xxx" height="yyy">
+            the img tag can also have a border - border=0 is no border
+        -->    
+    <img src="https://i.redd.it/355vta9c2ko21.jpg" 
+         alt="dead cow" 
+         width="150"
+         height="100"> 
+         
+    <h3>my list of why google so awesome</h3>
+ 
+
+    <!-- this is and Un Organized list -->
+    <ul> 
+
+        <!-- Each of these <li> items gets a bullet  -->
+        <li>It's easy to use</li>
+        <li>It's helpful</li>
+        <li>It takes over your life</li>
+        <li> Super pasta man</li>
+   
+    </ul>
+
+    <h3>This is another list of google stuff</h3> <!-- this is and Organized List -->    
+    
+    <ol>  <!-- start of list  -->        
+        <li>It takes over your life</li>  <!-- Each of these <li> items gets a number  -->
+        <li>It takes over your life</li>  <!-- Each of these <li> items gets a number  -->
+        <li>It takes over your life</li>  <!-- Each of these <li> items gets a number  -->  <li> Super pasta man</li>
+    </ol> <!-- end of list  -->
+        
+    <!-- lets talk about links
+ 
+            when you set want to make a link you have to use the <a> tag
+            The tag needs to have some extra pieces - like what to link too and what to say on the web page
+    -->
+    
+    <h4> LINKS </h4>
+        <ul>
+            <li>
+                <a 
+                   href="http://google.com">google.comffffffff
+                </a>
+            </li> <!-- href is the page - google.com is what it displays  -->
+            <li><a href="http://yahoo.com">google.com</a></li> <!-- href is the page - google.com is what it displays  -->
+        </ul>
+        
+  <h4>Images and Links together</h4>      
+        
+        <a href="https://www.google.com">  
+            <img border="0" 
+                 src="https://i.redd.it/355vta9c2ko21.jpg"  
+                 alt="ooops"  
+             >
+        </a> 
+    
+    </body>
+</html>
